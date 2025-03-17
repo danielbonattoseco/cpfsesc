@@ -5,4 +5,5 @@
 Este repositório contempla os materiais apresentados no âmbito dos cursos oferecidos por mim no CPF SESC/SP.
 
 Coordenador: [Gustavo Henrique Torrezan](https://www.gustavotorrezan.com/)
+
 Licença: Apache 2.0
