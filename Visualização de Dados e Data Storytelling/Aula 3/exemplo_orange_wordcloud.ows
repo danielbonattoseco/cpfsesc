@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="untitled" description="">
+	<nodes>
+		<node id="0" name="Corpus" qualified_name="orangecontrib.text.widgets.owcorpus.OWCorpus" project_name="Orange3-Text" version="" title="Corpus" position="(334.0, 251.0)" />
+		<node id="1" name="Preprocess Text" qualified_name="orangecontrib.text.widgets.owpreprocess.OWPreprocess" project_name="Orange3-Text" version="" title="Preprocess Text" position="(463.0, 253.0)" />
+		<node id="2" name="Word Cloud" qualified_name="orangecontrib.text.widgets.owwordcloud.OWWordCloud" project_name="Orange3-Text" version="" title="Word Cloud" position="(592.0, 252.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Corpus" sink_channel="Corpus" enabled="true" source_channel_id="corpus" sink_channel_id="corpus" />
+		<link id="1" source_node_id="1" sink_node_id="2" source_channel="Corpus" sink_channel="Corpus" enabled="true" source_channel_id="corpus" sink_channel_id="corpus" />
+	</links>
+	<annotations>
+		<arrow id="0" start="(326.99999999999994, 159.0)" end="(335.99999999999994, 219.0)" fill="#C1272D" />
+		<text id="1" type="text/plain" rect="(275.0, 38.0, 116.0, 144.0)" font-family=".SF NS Text" font-size="16">Carregue o corpus dos Contos dos Irmãos Grimm.
+</text>
+		<arrow id="2" start="(467.0, 360.0)" end="(463.0, 311.0)" fill="#C1272D" />
+		<text id="3" type="text/plain" rect="(366.0, 368.0, 211.0, 111.0)" font-family=".SF NS Text" font-size="16">Crie as unidades centrais de análise – os tokens. Divida os textos em palavras, remova as stopwords e transforme as palavras para sua forma base.</text>
+		<arrow id="4" start="(597.0000000000001, 178.00000000000003)" end="(596.0000000000001, 221.00000000000003)" fill="#C1272D" />
+		<text id="5" type="text/plain" rect="(530.0, 99.0, 150.0, 84.0)" font-family=".SF NS Text" font-size="16">Observe os tokens mais frequentes.
+</text>
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVjwIAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfZmlsZXOUXZQojBhn
+cmltbS10YWxlcy1zZWxlY3RlZC50YWKUjBFib29rLWV4Y2VycHRzLnRhYpSMGGVsZWN0aW9uLXR3
+ZWV0cy0yMDE2LnRhYpSMF2ZyaWVuZHMtdHJhbnNjcmlwdHMudGFilIwMYW5kZXJzZW4udGFilGWM
+E3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAcAAAACoAAAEQQAAAqYAAAHBAAAAxgAA
+BEAAAAKlAAAAAAAAAAAGAAAAAcEAAADGAAAEQAAAAqWUjAtfX3ZlcnNpb25fX5RLAowQY29udGV4
+dF9zZXR0aW5nc5RdlCiMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiM
+BnZhbHVlc5R9lCiMCGxhbmd1YWdllIwCZW6USv7///+GlIwOdGl0bGVfdmFyaWFibGWUjAVUaXRs
+ZZRLZ4aUjAp1c2VkX2F0dHJzlF2UjAdDb250ZW50lEtnhpRhSv3///+GlGgLSwJ1jAphdHRyaWJ1
+dGVzlH2UjAlBVFUgVG9waWOUSwFzjAVtZXRhc5R9lCiMBVRpdGxllEsDjAhBYnN0cmFjdJRLA4wH
+Q29udGVudJRLA4wNQVRVIE51bWVyaWNhbJRLA4wIQVRVIFR5cGWUSwF1dWJoECmBlH2UKGgTfZQo
+jA50aXRsZV92YXJpYWJsZZROSv7///+GlIwKdXNlZF9hdHRyc5RdlIwEVGV4dJRLZ4aUYUr9////
+hpRoC0sCdWggfZSMCENhdGVnb3J5lEsBc2gjfZRoMUsDc3ViZXUu
+</properties>
+		<properties node_id="1" format="literal">{'autocommit': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\xbe\x00\x00\x00\xbf\x00\x00\x04\xef\x00\x00\x02\xbd\x00\x00\x01\xbf\x00\x00\x00\xdd\x00\x00\x04\xee\x00\x00\x02\xbc\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x01\xbf\x00\x00\x00\xdd\x00\x00\x04\xee\x00\x00\x02\xbc', 'storedsettings': {'name': '', 'preprocessors': [('preprocess.transform', {}), ('preprocess.tokenize', {}), ('preprocess.normalize', {'lemmagen_language': 'en', 'method': 3, 'snowball_language': 'en', 'udpipe_language': 'en', 'udpipe_tokenizer': False}), ('preprocess.filter', {'abs_end': 10, 'abs_start': 1, 'freq_type': 0, 'incl_num': False, 'invalidated': False, 'language': 'en', 'lx_list': [], 'lx_path': None, 'methods': [0, 3], 'n_tokens': 100, 'pattern': '\\.|,|:|;|!|\\?|\\(|\\)|\\||\\+|\'|"|‘|’|“|”|\'|\\’|…|\\-|–|—|\\$|&amp;|\\*|&gt;|&lt;|\\/|\\[|\\]', 'pos_tags': 'NOUN,VERB', 'rel_end': 0.9, 'rel_start': 0.1, 'sw_list': [], 'sw_path': None})]}, '__version__': 4}</properties>
+		<properties node_id="2" format="pickle">gASVvwAAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5
+lENCAdnQywADAAD/////////+QAABgAAAAMwAAAAAAAAABcAAAX/AAADLwAAAAACAAAABgAAAAAA
+AAAAFwAABf8AAAMvlIwOc2VsZWN0ZWRfd29yZHOUj5QojANvbmWUkIwLd29yZHNfY29sb3KUiIwK
+d29yZHNfdGlsdJRLAIwLX192ZXJzaW9uX1+USwF1Lg==
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
